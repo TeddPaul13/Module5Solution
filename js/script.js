@@ -339,7 +339,7 @@ function insertItemPortionName(html,
   }
 
   portionValue = "(" + portionValue + ")";
-  html = insertProperty(html, portionPropName, portionValue);
+  html = insertProperty(html, portionPropName, portionValue); 
   return html;
 }
 
